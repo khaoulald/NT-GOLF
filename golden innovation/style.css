@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+body{
+    margin: 0;
+}
+nav{
+    background-color: blueviolet;
+    text-align: center;
+}
+/*-----------carousel text------------*/
+.textdiv{
+    color: white;
+    margin-top: -350px;
+    margin-left: 500px;
+    position: absolute;
+}
+.bigtitle{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+margin-bottom: -30px;
+}
+.surnom{
+font-family: 'Qwitcher Grypen';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+color: #CDAC00;
+}
+
+/*-----------the tree div in position absolute------------*/
+
+.bigdiv{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 130px;
+    height: 700px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.textdiv2{
+    color: white;
+}
+.bigtitle2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+margin-bottom: -25px;
+}
+.surnom2{
+    text-align: center;
+font-family: 'Qwitcher Grypen';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #CDAC00;
+}
+
+
+.div1{
+    background-image: url("div2.png");
+    background-size: cover;
+    height: 240px;
+    margin-right: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.div2{
+    background-image: url("div.png");
+    background-size: cover;
+    height: 240px;
+    margin-right: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.div3{
+    background-image: url("headerbg.png");
+    background-size: cover;
+    height: 240px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 48%;
+    left: 0;
+    z-index: 2;
+    display: grid;
+    margin-bottom: 1rem;
+    margin-left: 96%;
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-bottom: 25%;
+    color: #fff;
+}
+.carousel-inner{
+    height: 600px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    width: 6px;
+    height: 6px;
+    padding: 0;
+    margin-left: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+}
+.granddiv{
+    display: flex;
+    margin-top: 300px;
+}
+.academy{
+    width: 40%;
+    background-color: #ffffff;
+    padding: 50px;
+    position: absolute;
+    margin: 50px 0px 0px 0px;
+}
+.image2{
+    width: 60%;
+    background-image: url("div2.png");
+    background-size: cover;
+    margin-left: 450px;
+    height: 500px;
+}
+.academy h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+    color: #0D404F;
+}
+.academy h2{
+    font-family: 'Qwitcher Grypen';
+font-style: normal;
+font-weight: 400;
+color: #CDAC00;
+}
+.academy p{
+font-size: 15px;
+}
+.btn1{
+    background-color: #0D404F;
+    padding: 5px 50px 5px 50px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+.btn1{
+    color: #fff;
+}
+.btn2{
+    background-color: white;
+    padding: 5px 50px 5px 50px;
+    border-radius: 15px;
+    border-color: #0D404F;
+}
